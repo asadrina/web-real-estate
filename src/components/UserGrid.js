@@ -56,7 +56,7 @@ export default function UserGrid() {
   return (
     <Container>
       <Row>
-        <Col md={6}>
+        <Col md={5}>
           {selectedUser && (
             <UserForm user={selectedUser} handleUpdate={handleUpdate} />
           )}
@@ -64,7 +64,8 @@ export default function UserGrid() {
             <UserForm handleSubmit={handleSubmit} />
           )}
         </Col>
-        <Col md={6}>
+        <Col md={7}>
+        <h2>List of Users</h2>
           <table className="table table-striped border-primary">
             <caption>List of users</caption>
             <thead className="table-dark">

@@ -10,61 +10,60 @@ export default function Home() {
         <MDBCarouselItem itemId={1}>
           <img src='https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg' className='d-block w-100' alt='...' />
           <MDBCarouselCaption>
-            <h5>First slide label</h5>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h5>Downtown Loft with Skyline Views</h5>
+            <p>Modern loft located in downtown area with breathtaking skyline views. Features include high ceilings, exposed brick, and rooftop terrace.</p>
           </MDBCarouselCaption>
         </MDBCarouselItem>
 
         <MDBCarouselItem itemId={2}>
           <img src='https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg' className='d-block w-100' alt='...' />
           <MDBCarouselCaption>
-            <h5>Second slide label</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h5>Seaside Cottage with Private Dock</h5>
+            <p>Quaint cottage by the sea with private dock. Ideal for boating enthusiasts and those seeking a peaceful coastal retreat.</p>
           </MDBCarouselCaption>
         </MDBCarouselItem>
 
         <MDBCarouselItem itemId={3}>
           <img src='https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg' className='d-block w-100' alt='...' />
           <MDBCarouselCaption>
-            <h5>Third slide label</h5>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <h5>Country Estate with Vineyard</h5>
+            <p>Expansive estate set amidst rolling hills and vineyards. Features include wine cellar, guest house, and stunning sunset views.</p>
           </MDBCarouselCaption>
         </MDBCarouselItem>
       </MDBCarousel>
 
-      <MDBRow className="mt-4">
+      <MDBRow className="mt-4 mb-4">
         <MDBCol>
           <MDBCard>
-            <MDBCardImage style={{ height: '200px', width: '406px' }} src="./images/ai.jpg" alt="Card image cap" top />
+            <MDBCardImage style={{ height: '200px', width: '414px' }} src="./images/modern-apartment.jpg" alt="Card image cap" top />
             <MDBCardBody>
-              <MDBCardTitle>Card title - 0</MDBCardTitle>
+              <MDBCardTitle>Modern Apartment in Downtown</MDBCardTitle>
               <MDBCardText>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+                Spacious and modern apartment located in the heart of downtown. 
+                Features include open floor plan, large windows, and stunning city views.
               </MDBCardText>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
         <MDBCol>
           <MDBCard>
-            <MDBCardImage style={{ height: '200px', width: '406px' }} src="./images/bitcoin.jpg" alt="Card image cap" top />
+            <MDBCardImage style={{ height: '200px', width: '414px' }} src="./images/luxury-villa.jpg" alt="Card image cap" top />
             <MDBCardBody>
-              <MDBCardTitle>Card title - 1</MDBCardTitle>
+              <MDBCardTitle>Luxury Villa with Ocean View</MDBCardTitle>
               <MDBCardText>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+              Luxurious villa overlooking the ocean. 
+              This stunning property features high-end finishes, infinity pool, and private beach access.
               </MDBCardText>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
         <MDBCol>
           <MDBCard>
-            <MDBCardImage style={{ height: '200px', width: '406px' }} src="./images/board.jpg" alt="Card image cap" top />
+            <MDBCardImage style={{ height: '200px', width: '414px' }} src="./images/cozy-mountain-cabin.jpg" alt="Card image cap" top />
             <MDBCardBody>
-              <MDBCardTitle>Card title - 2</MDBCardTitle>
+              <MDBCardTitle>Cozy Mountain Cabin</MDBCardTitle>
               <MDBCardText>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+              Large family home with plenty of room for entertaining. Features include gourmet kitchen, landscaped backyard, and bonus room.
               </MDBCardText>
             </MDBCardBody>
           </MDBCard>

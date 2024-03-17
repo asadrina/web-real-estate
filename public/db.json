@@ -51,12 +51,11 @@
   ],
   "users": [
     {
-      "userName": "PrasadKT",
-      "password": "prasad123",
+      "userName": "Prasadktttt",
       "email": "asadrina@gmail.com",
       "phone": "0900383909",
-      "website": "",
-      "company": "",
+      "website": "test.com",
+      "company": "test",
       "id": "10cb"
     },
     {
@@ -67,6 +66,95 @@
       "website": "",
       "company": "",
       "id": "10cc"
+    },
+    {
+      "userName": "johnsmith",
+      "password": "smith123",
+      "email": "johnsmith@example.com",
+      "phone": "1234567890",
+      "website": "www.johnsmithrealestate.com",
+      "company": "John Smith Real Estate",
+      "id": "20ab"
+    },
+    {
+      "userName": "janesmith",
+      "email": "janesmith@example.com",
+      "phone": "0987654321",
+      "website": "www.janesmithrealtyy.com",
+      "company": "",
+      "id": "30cd"
+    },
+    {
+      "userName": "mikebrown",
+      "password": "brown123",
+      "email": "mikebrown@example.com",
+      "phone": "5555555555",
+      "website": "www.mikebrownproperties.com",
+      "company": "Mike Brown Properties",
+      "id": "40ef"
+    },
+    {
+      "userName": "emilywhite",
+      "password": "white123",
+      "email": "emilywhite@example.com",
+      "phone": "9876543210",
+      "website": "www.emilywhiterealty.com",
+      "company": "Emily White Realty",
+      "id": "50gh"
+    },
+    {
+      "userName": "davidgreen",
+      "password": "green123",
+      "email": "davidgreen@example.com",
+      "phone": "3333333333",
+      "website": "www.davidgreenhomes.com",
+      "company": "David Green Homes",
+      "id": "60ij"
+    },
+    {
+      "userName": "sarahlee",
+      "password": "lee123",
+      "email": "sarahlee@example.com",
+      "phone": "7777777777",
+      "website": "www.sarahleerealty.com",
+      "company": "Sarah Lee Realty",
+      "id": "70kl"
+    },
+    {
+      "userName": "adamwilson",
+      "password": "wilson123",
+      "email": "adamwilson@example.com",
+      "phone": "6666666666",
+      "website": "www.adamwilsonproperties.com",
+      "company": "Adam Wilson Properties",
+      "id": "80mn"
+    },
+    {
+      "userName": "ameliabrown",
+      "password": "amelia123",
+      "email": "ameliabrown@example.com",
+      "phone": "2222222222",
+      "website": "www.ameliabrownrealty.com",
+      "company": "Amelia Brown Realty",
+      "id": "90op"
+    },
+    {
+      "userName": "chrisking",
+      "password": "king123",
+      "email": "chrisking@example.com",
+      "phone": "4444444444",
+      "website": "www.chriskingproperties.com",
+      "company": "Chris King Properties",
+      "id": "100qr"
+    },
+    {
+      "userName": "olivialane",
+      "password": "lane123",
+      "email": "olivialane@example.com",
+      "phone": "8888888888",
+      "website": "www.olivialanerealty.com",
+      "company": "Olivia Lane Realty",
+      "id": "110st"
     }
   ]
 }

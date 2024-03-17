@@ -42,7 +42,7 @@ export default function PropertyDetail() {
               <h5 className='card-title'>{propertyData.title}</h5>
               <p className="card-text text-secondary">{propertyData.description}</p>
               <p className="card-text text-secondary">Price: ${propertyData.price}</p>
-              <p className="card-text text-secondary">Rating: {propertyData.rating.rate}</p>
+              {/* <p className="card-text text-secondary">Rating: {propertyData.rating.rate}</p> */}
               <button className='btn btn-success'>Proceed for Payment</button> &nbsp;&nbsp;&nbsp;
               <Link to='/' className='btn btn-danger'>Back to Properties</Link>
             </div>

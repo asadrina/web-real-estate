@@ -33,7 +33,7 @@ const PriceFilter = ({ minPrice, maxPrice, onChange }) => {
   };
 
   return (
-    <div>
+    <div className='mt-4 mb-4'>
       <label htmlFor="min-price">Min Price:</label>
       <input type="range" id="min-price" name="min-price" min={minPrice} max={maxPrice} value={currentMinPrice} onChange={handleMinPriceChange} />
       <label htmlFor="max-price">Max Price:</label>

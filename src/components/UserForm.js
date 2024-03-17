@@ -45,7 +45,7 @@ export default function UserForm({ user, handleUpdate }) {
       <form onSubmit={handleSubmit(onFormSubmit)}>
         <div className="mb-3">
           <label htmlFor="name" className="form-label">Name</label>
-          <input className='form-control' {...register('userName', { required: true, pattern: /^[a-z\s]{5,20}$/i })} value={formData.userName} onChange={handleInputChange} />
+          <input className='form-control' {...register('userName', { required: true })} value={formData.userName} onChange={handleInputChange} />
           {errors.userName?.type === 'required' && <p className='text-danger'>* User name is required</p>}
           {errors.userName?.type === 'pattern' && <p className='text-danger'>* User name is invalid & must be between 5 and 20 chars.</p>}
         </div>
