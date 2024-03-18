@@ -31,16 +31,15 @@ export default function Login(props) {
     <>
     <div className="background-top"></div>
     <div className="background-bottom"></div>
-    <div className="container">
         <div className="login-container">
-            <h2> DreamHome Realty </h2>
+        <img src="./images/logo.jpeg" alt="DreamHome Realty" className="login-image" />
             <form className='login-form' onSubmit={handleSubmit}>
                 <div className="mb-3">
                 <input
                 type="text"
                 className="form-control"
                 id="username"
-                placeholder="UserName" required
+                placeholder="User Name" required
                 value={username}
                 onChange={(event) => setUsername(event.target.value)}
               />
@@ -59,7 +58,6 @@ export default function Login(props) {
               Login
             </button>
             </form>
-        </div>
     </div>
     </>
   )

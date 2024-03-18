@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
+import Rating from './Rating';
 
 export default function PropertyDetail() {
   const { property_id } = useParams();
@@ -36,15 +37,18 @@ export default function PropertyDetail() {
       <div className='row mt-5'>
         <div className='col-lg-12 col-md-6 mb-4'>
           <div className="card">
-            <img className="card-img-top mx-auto mt-2 products_detail_image" src={propertyData.image} alt="Product" style={{ height: '244px', width: '150px' }}/>
-            <div className="card-body">
-              <h6 className="card-text text-secondary">PRODUCT</h6>
+              <h6 className="card-text text-secondary">PROPERTY</h6>
               <h5 className='card-title'>{propertyData.title}</h5>
+            <img className="card-img-top mx-auto products_detail_image" src={propertyData.image} alt="Product"/>
+            <div className="card-body">
               <p className="card-text text-secondary">{propertyData.description}</p>
               <p className="card-text text-secondary">Price: ${propertyData.price}</p>
+              <p className="card-text text-secondary">
+                <Rating rating={propertyData.rating} />
+              </p>
               {/* <p className="card-text text-secondary">Rating: {propertyData.rating.rate}</p> */}
               <button className='btn btn-success'>Proceed for Payment</button> &nbsp;&nbsp;&nbsp;
-              <Link to='/' className='btn btn-danger'>Back to Properties</Link>
+              <Link to='/properties' className='btn btn-danger'>Back to Properties</Link>
             </div>
           </div>
         </div>

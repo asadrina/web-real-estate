@@ -2,56 +2,63 @@
   "products": [
     {
       "id": "1",
-      "title": "Foldsack No. 1 Backpack, Fits 15 Laptops",
-      "price": 109.95,
-      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-      "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+      "title": "Modern City Apartment",
+      "price": 350000,
+      "description": "The Modern City Apartment is a spacious and contemporary living space located in the bustling heart of the city. This stylish apartment offers residents a combination of luxury and convenience, featuring sleek design elements, high-end finishes, and state-of-the-art amenities. With its open-concept layout and expansive windows, the apartment boasts abundant natural light and stunning views of the city skyline. Perfect for urban professionals and discerning individuals, this apartment provides the ideal retreat for those seeking a sophisticated urban lifestyle.",
+      "image": "../images/properties/modern-city-apartment.jpg",
+      "inStock": true,
+      "rating": 2.5
     },
     {
       "id": "2",
-      "title": "Mens Casual Premium Slim Fit T-Shirts ",
-      "price": 22.3,
-      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
-      "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+      "title": "Luxury Beachfront Villa ",
+      "price": 223000,
+      "description": "The Luxury Beachfront Villa is an exquisite property situated right on the pristine shores of Malibu. This stunning villa offers unparalleled luxury and comfort, with spacious living areas, elegant furnishings, and breathtaking ocean views. With four bedrooms and four bathrooms, this villa provides ample space for relaxation and entertainment. Enjoy direct access to the beach, where you can soak up the sun, swim in the crystal-clear waters, or simply unwind with a refreshing drink in hand. This is beachfront living at its finest, offering the ultimate retreat for those seeking a luxurious coastal getaway",
+      "image": "../images/properties/luxury-beach.jpg",
+      "inStock": true,
+      "rating": 4.5
     },
     {
       "id": "3",
-      "title": "Mens Cotton Jacket",
-      "price": 55.99,
-      "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-      "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+      "title": "Rustic Mountain Cabin",
+      "price": 559900,
+      "description": "The Rustic Mountain Cabin offers a serene retreat nestled in the heart of the mountains. This cozy cabin features a charming stone fireplace, perfect for warming up on chilly evenings. With its spacious deck overlooking breathtaking views of the surrounding wilderness, this cabin provides the ideal setting for relaxation and outdoor adventures. Escape the hustle and bustle of city life and immerse yourself in the tranquility of nature at the Rustic Mountain Cabin.",
+      "image": "../images/properties/rustic-mountain-view.jpg",
+      "inStock": false,
+      "rating": 4
     },
     {
       "id": "4",
-      "title": "Mens Casual Slim Fit",
-      "price": 15.99,
-      "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
-      "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
+      "title": "Gated Estate with Vineyard",
+      "price": 159900,
+      "description": "Magnificent estate with expansive grounds and private vineyard. This luxurious property offers unparalleled elegance and sophistication. With its grand architecture and meticulously landscaped gardens, this gated estate provides the ultimate retreat for those seeking privacy and serenity. The vineyard, meticulously cared for by expert vintners, produces some of the finest wines in the region. Whether hosting lavish events or enjoying quiet moments of relaxation, this estate offers an unmatched lifestyle of luxury and refinement.",
+      "image": "../images/properties/gated-estate.jpg",
+      "inStock": true,
+      "rating": 4.8
     },
     {
       "id": "5",
-      "title": "Women's Legends Naga Gold & Silver Bracelet",
-      "price": 695,
-      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
-      "category": "jewelery",
-      "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg"
+      "title": "Lakefront Cottage Retreat",
+      "price": 695000,
+      "description": "Escape to tranquility at our Lakefront Cottage Retreat. Nestled amidst the picturesque shores of Lake Tahoe, this charming cottage offers the perfect blend of rustic charm and modern comfort. Step inside to discover a cozy interior adorned with a stone fireplace, inviting living spaces, and panoramic views of the pristine lake. Relax on the screened porch as you savor the gentle breeze and the sound of lapping waves. With a private dock for boating adventures and access to hiking trails nearby, this idyllic retreat promises endless opportunities for outdoor recreation and relaxation. Experience the epitome of lakeside living at our Lakefront Cottage Retreat.",
+      "image": "../images/properties/lake-front.jpg",
+      "inStock": true,
+      "rating": 4.2
     },
     {
       "id": "6",
-      "title": "Solid Gold Petite Micropave ",
-      "price": 168,
-      "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
-      "category": "jewelery",
-      "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg"
+      "title": "Urban Loft with Skyline Views",
+      "price": 168000,
+      "description": "Step into luxury and modernity with this stunning urban loft boasting unparalleled skyline views. Located in the heart of a vibrant city, this loft offers a unique blend of industrial-chic design and contemporary elegance. With expansive floor-to-ceiling windows, you'll enjoy breathtaking panoramas of the cityscape from every angle. The open-concept layout features exposed brick walls, high ceilings, and sleek finishes, creating an inviting space for both living and entertaining. Relax on your private rooftop terrace while taking in the mesmerizing sights of the bustling city below. This urban oasis offers the perfect combination of sophistication and convenience, making it the ultimate urban retreat for discerning individuals.",
+      "image": "../images/properties/urban-loft.jpg",
+      "inStock": true,
+      "rating": 4.7
     }
   ],
   "users": [
     {
       "userName": "Prasadktttt",
+      "password": "smith123",
       "email": "asadrina@gmail.com",
       "phone": "0900383909",
       "website": "test.com",
@@ -63,8 +70,8 @@
       "password": "admin123",
       "email": "asadrina@gmail.com",
       "phone": "0900383909",
-      "website": "",
-      "company": "",
+      "website": "www.demoadmin.com",
+      "company": "Demo Admin",
       "id": "10cc"
     },
     {
@@ -80,8 +87,8 @@
       "userName": "janesmith",
       "email": "janesmith@example.com",
       "phone": "0987654321",
-      "website": "www.janesmithrealtyy.com",
-      "company": "",
+      "website": "",
+      "company": "Jane Smith Realty",
       "id": "30cd"
     },
     {
@@ -94,12 +101,11 @@
       "id": "40ef"
     },
     {
-      "userName": "emilywhite",
-      "password": "white123",
+      "userName": "emilywhitetredtttrt",
       "email": "emilywhite@example.com",
       "phone": "9876543210",
-      "website": "www.emilywhiterealty.com",
-      "company": "Emily White Realty",
+      "website": "",
+      "company": "Emily White Realty - 1",
       "id": "50gh"
     },
     {
@@ -130,15 +136,6 @@
       "id": "80mn"
     },
     {
-      "userName": "ameliabrown",
-      "password": "amelia123",
-      "email": "ameliabrown@example.com",
-      "phone": "2222222222",
-      "website": "www.ameliabrownrealty.com",
-      "company": "Amelia Brown Realty",
-      "id": "90op"
-    },
-    {
       "userName": "chrisking",
       "password": "king123",
       "email": "chrisking@example.com",
@@ -155,6 +152,14 @@
       "website": "www.olivialanerealty.com",
       "company": "Olivia Lane Realty",
       "id": "110st"
+    },
+    {
+      "id": "60ab",
+      "userName": "test",
+      "email": "test@test.com",
+      "phone": "1234567890",
+      "website": "www.test.com",
+      "company": "Test Reality"
     }
   ]
 }

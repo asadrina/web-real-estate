@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import UserForm from './UserForm';
+import { FaTrashAlt, FaEdit } from 'react-icons/fa';
 
 export default function UserTable() {
   const [userData, setUserData] = useState([])
@@ -35,7 +36,7 @@ export default function UserTable() {
   const handleUpdate = async (formData) => {
     try {
       await axios.put(`http://localhost:3001/users/${selectedUser.id}`, formData);
-      fetchData(); // Refresh table after update
+      fetchData();
       setSelectedUser(null);
     } catch (error) {
       console.error('Error updating data:', error);
@@ -57,24 +58,26 @@ export default function UserTable() {
         <caption>List of users</caption>
         <thead className="table-dark">
           <tr>
-            <th>ID</th>
             <th>Name</th>
             <th>Email</th>
             <th>Phone</th>
+            <th>Website</th>
+            <th>Company Name</th>
             <th>Action</th>
           </tr>
         </thead>
         <tbody>
           {userData.map((user, index) => (
             <tr key={index}>
-              <td>{user.id}</td>
               <td>{user.userName}</td>
               <td>{user.email}</td>
               <td>{user.phone}</td>
+              <td>{user.website}</td>
+              <td>{user.company}</td>
               <td>
                 <div className="container">
-                  <button type="button" className="btn btn-danger" onClick={() => handleDelete(user.id)}>Delete</button>
-                  <button type="button" className="btn btn-warning" onClick={() => handleEdit(user)} style={{marginLeft: '10px'}}>Edit</button>
+                  <button type="button" className="btn btn-danger" onClick={() => handleDelete(user.id)}><FaTrashAlt /></button>
+                  <button type="button" className="btn btn-warning" onClick={() => handleEdit(user)} style={{marginLeft: '10px'}}><FaEdit /></button>
                 </div>
               </td>
             </tr>

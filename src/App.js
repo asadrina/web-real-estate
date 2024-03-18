@@ -15,10 +15,11 @@ function App() {
 
   const handleAuthenticate = () => {
     setIsAuthenticated(true);};
+
   return (
-    <div className="App">
+    <div className='App'>
       {/* <Header cart={cart}/> */}
-      {isAuthenticated && <Header cart={cart} />}
+      {isAuthenticated && <Header cart={cart} handleAuthenticate={handleAuthenticate}/>}
       <Routes>
       <Route
         exact

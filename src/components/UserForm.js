@@ -47,7 +47,6 @@ export default function UserForm({ user, handleUpdate }) {
           <label htmlFor="name" className="form-label">Name</label>
           <input className='form-control' {...register('userName', { required: true })} value={formData.userName} onChange={handleInputChange} />
           {errors.userName?.type === 'required' && <p className='text-danger'>* User name is required</p>}
-          {errors.userName?.type === 'pattern' && <p className='text-danger'>* User name is invalid & must be between 5 and 20 chars.</p>}
         </div>
         <div className="mb-3">
           <label htmlFor="email" className="form-label">Email</label>

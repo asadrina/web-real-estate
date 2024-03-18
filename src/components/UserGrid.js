@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import UserForm from './UserForm';
 import { Container, Row, Col } from 'react-bootstrap';
+import { FaTrashAlt, FaEdit } from 'react-icons/fa';
 
 export default function UserGrid() {
   const [userData, setUserData] = useState([])
@@ -54,7 +55,7 @@ export default function UserGrid() {
 };
 
   return (
-    <Container>
+    <>
       <Row>
         <Col md={5}>
           {selectedUser && (
@@ -70,24 +71,24 @@ export default function UserGrid() {
             <caption>List of users</caption>
             <thead className="table-dark">
               <tr>
-                <th>ID</th>
                 <th>Name</th>
                 <th>Email</th>
                 <th>Phone</th>
+                <th>Company</th>
                 <th>Action</th>
               </tr>
             </thead>
             <tbody>
               {userData.map((user, index) => (
                 <tr key={index}>
-                  <td>{user.id}</td>
                   <td>{user.userName}</td>
                   <td>{user.email}</td>
                   <td>{user.phone}</td>
+                  <td>{user.company}</td>
                   <td>
                     <div className="container">
-                      <button type="button" className="btn btn-danger" onClick={() => handleDelete(user.id)}>Delete</button>
-                      <button type="button" className="btn btn-warning" onClick={() => handleEdit(user)} style={{marginLeft: '10px'}}>Edit</button>
+                      <button type="button" className="btn btn-danger" onClick={() => handleDelete(user.id)}><FaTrashAlt/></button>
+                      <button type="button" className="btn btn-warning" onClick={() => handleEdit(user)} style={{marginLeft: '10px'}}><FaEdit/></button>
                     </div>
                   </td>
                 </tr>
@@ -96,6 +97,6 @@ export default function UserGrid() {
           </table>
         </Col>
       </Row>
-    </Container>
+    </>
   )
 }
