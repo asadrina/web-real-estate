@@ -5,7 +5,7 @@ import PriceFilter from './PriceFilter'
 import { Link } from 'react-router-dom'
 import Rating from './Rating'
 
-export default function Properties({ cart, setCart }) {
+export default function Properties({ cart, setCart, searchQuery }) {
     const properties = useSelector(state => state.properties.properties)
     const dispatch = useDispatch()
     // const [minPrice, setMinPrice] = useState(0);
@@ -38,6 +38,8 @@ export default function Properties({ cart, setCart }) {
     const filterProperties = () => {
         // let filteredProperties = properties.filter((property) => property.price >= minPrice && property.price <= maxPrice);
         let filteredProperties = properties
+        // console.log(searchQuery);
+        // let filteredProperties = properties.filter((property) => property.title.toLowerCase().includes(searchQuery));
         switch (sortBy) {
           case 'price-asc':
             filteredProperties = filteredProperties.sort((a, b) => a.price - b.price);
@@ -63,7 +65,7 @@ export default function Properties({ cart, setCart }) {
 
     useEffect(() => {
       filterProperties();
-    }, [sortBy]);
+    }, [sortBy, searchQuery]);
 
     return (
         <div className="container-fluid mt-4">

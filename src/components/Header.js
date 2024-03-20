@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Container, Navbar, Nav, FormControl } from 'react-bootstrap';
 
-const Header = ({ cart, handleAuthenticate  }) => {
+const Header = ({ cart, handleAuthenticate, searchQuery, setSearchQuery }) => {
   return (
     <Navbar bg="light" expand="lg" sticky="top">
       <Container>
@@ -17,32 +17,35 @@ const Header = ({ cart, handleAuthenticate  }) => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-          <FormControl
+            <FormControl
               type="search"
               placeholder="Search"
               className="me-2"
               aria-label="Search"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
             />
             <Nav.Link as={Link} to="/home">
               Home
-            </Nav.Link><Nav.Link as={Link} to="/users">
+            </Nav.Link>
+            <Nav.Link as={Link} to="/users">
               Users
             </Nav.Link>
             <Nav.Link as={Link} to="/properties">
-              Properties
+              Listing
             </Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link as={Link} to="/cart">
-            <img
-            src="./images/cart.jpg"
-            height="30"
-            className="d-inline-block align-top"
-            alt="Logo"
-          /> {cart.length}
+              <img
+                src="./images/cart.jpg"
+                height="30"
+                className="d-inline-block align-top"
+                alt="Logo"
+              />{' '}
+              {cart.length}
             </Nav.Link>
           </Nav>
-          
         </Navbar.Collapse>
       </Container>
     </Navbar>

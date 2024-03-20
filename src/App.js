@@ -12,6 +12,7 @@ import Login from './components/Login';
 function App() {
   const [cart, setCart] = useState([]);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
 
   const handleAuthenticate = () => {
     setIsAuthenticated(true);};
@@ -19,7 +20,7 @@ function App() {
   return (
     <div className='App'>
       {/* <Header cart={cart}/> */}
-      {isAuthenticated && <Header cart={cart} handleAuthenticate={handleAuthenticate}/>}
+      {isAuthenticated && <Header cart={cart} handleAuthenticate={handleAuthenticate}  searchQuery={searchQuery} setSearchQuery={setSearchQuery}/>}
       <Routes>
       <Route
         exact
